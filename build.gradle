@@ -1,0 +1,20 @@
+plugins {
+    id "java"
+    id 'org.openjfx.javafxplugin' version '0.0.7'
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.base', 'javafx.fxml']
+    version = "11.0.1"
+}
+
+repositories {
+    maven {
+        url "http://first.wpi.edu/FRC/roborio/maven/release"
+    }
+    mavenCentral()
+}
+
+dependencies {
+    compile "edu.wpi.first.shuffleboard:api:2019.2.1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "UTF-8">
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.ligerbots.MapPlugin.Widget" fx:id="_Pane">
+
+    <Button text="Hey this works!" />
+
+</GridPane>
