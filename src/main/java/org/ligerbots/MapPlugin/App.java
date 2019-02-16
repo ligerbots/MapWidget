@@ -12,7 +12,10 @@ import edu.wpi.first.shuffleboard.api.widget.WidgetType;
  * Hello world!
  *
  */
-@Description(group = "org.ligerbots", name = "MapPlugin", summary = "Displays Robot position in real time.", version = "0.0.4")
+@Description(group = "org.ligerbots", 
+    name = "MapPlugin", 
+    summary = "Displays Robot position in real time.", 
+    version = "0.0.8")
 public class App extends Plugin {
 
     @Override
